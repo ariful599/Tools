@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal | Course Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>University Student Portal</h1>
+
+        <p>Computer Science and Engineering Department</p>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <nav>
+
+        <a href="index.html">Dashboard</a>
+
+        <a href="profile.html">Profile</a>
+
+        <a href="courses.html">Courses</a>
+
+        <a href="registration.html">Course Registration</a>
+
+        <a href="results.html">Results</a>
+
+        
+
+        <a href="notices.html">Notices</a>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+
+        <!-- ================= PAGE INTRODUCTION ================= -->
+
+        <section>
+
+            <h2>Course Registration</h2>
+
+            <p>
+                Select the courses you want to register for the
+                upcoming semester.
+            </p>
+
+            <p>
+                <strong>Student ID:</strong> CSE-23001
+            </p>
+
+            <p>
+                <strong>Current Semester:</strong> 2nd Semester
+            </p>
+
+        </section>
+
+
+        <!-- ================= REGISTRATION FORM ================= -->
+
+        <form>
+
+
+            <!-- ================= ONGOING COURSES ================= -->
+
+            <section>
+
+                <h2>Ongoing Courses</h2>
+
+                <p>
+                    These are the courses currently offered for
+                    this semester.
+                </p>
+
+
+                <table border="1">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Select</th>
+
+                            <th>Course Name</th>
+
+                            <th>Course Type</th>
+
+                            <th>Credit</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <!-- Architecture -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="architecture">
+
+                                    <input
+                                        type="checkbox"
+                                        id="architecture"
+                                        name="courses"
+                                        value="architecture"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Architecture
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Tools Lab -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="tools-lab">
+
+                                    <input
+                                        type="checkbox"
+                                        id="tools-lab"
+                                        name="courses"
+                                        value="tools-lab"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Tools Lab
+                            </td>
+
+                            <td>
+                                Laboratory
+                            </td>
+
+                            <td>
+                                2
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Microprocessor Theory -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="microprocessor-theory">
+
+                                    <input
+                                        type="checkbox"
+                                        id="microprocessor-theory"
+                                        name="courses"
+                                        value="microprocessor-theory"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Microprocessor Theory
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Microprocessor Lab -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="microprocessor-lab">
+
+                                    <input
+                                        type="checkbox"
+                                        id="microprocessor-lab"
+                                        name="courses"
+                                        value="microprocessor-lab"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Microprocessor Lab
+                            </td>
+
+                            <td>
+                                Laboratory
+                            </td>
+
+                            <td>
+                                1.5
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Compiler Theory -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="compiler-theory">
+
+                                    <input
+                                        type="checkbox"
+                                        id="compiler-theory"
+                                        name="courses"
+                                        value="compiler-theory"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Compiler Theory
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Compiler Lab -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="compiler-lab">
+
+                                    <input
+                                        type="checkbox"
+                                        id="compiler-lab"
+                                        name="courses"
+                                        value="compiler-lab"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Compiler Lab
+                            </td>
+
+                            <td>
+                                Laboratory
+                            </td>
+
+                            <td>
+                                1.5
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- ================= ADVANCED COURSES ================= -->
+
+            <section>
+
+                <h2>Advanced Courses</h2>
+
+                <p>
+                    Students who meet the prerequisites may select
+                    an advanced course.
+                </p>
+
+
+                <table border="1">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Select</th>
+
+                            <th>Course Name</th>
+
+                            <th>Course Type</th>
+
+                            <th>Credit</th>
+
+                            <th>Prerequisite</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <!-- Advanced Course 1 -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="advanced-dsa">
+
+                                    <input
+                                        type="checkbox"
+                                        id="advanced-dsa"
+                                        name="advanced-courses"
+                                        value="advanced-dsa"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Advanced Data Structures
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                            <td>
+                                Data Structures
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Advanced Course 2 -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="operating-system">
+
+                                    <input
+                                        type="checkbox"
+                                        id="operating-system"
+                                        name="advanced-courses"
+                                        value="operating-system"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Operating Systems
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                            <td>
+                                Computer Architecture
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Advanced Course 3 -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="database">
+
+                                    <input
+                                        type="checkbox"
+                                        id="database"
+                                        name="advanced-courses"
+                                        value="database"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Database Management Systems
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                            <td>
+                                Programming Fundamentals
+                            </td>
+
+                        </tr>
+
+
+                        <!-- Advanced Course 4 -->
+
+                        <tr>
+
+                            <td>
+
+                                <label for="computer-network">
+
+                                    <input
+                                        type="checkbox"
+                                        id="computer-network"
+                                        name="advanced-courses"
+                                        value="computer-network"
+                                    >
+
+                                    Select
+
+                                </label>
+
+                            </td>
+
+                            <td>
+                                Computer Networks
+                            </td>
+
+                            <td>
+                                Theory
+                            </td>
+
+                            <td>
+                                3
+                            </td>
+
+                            <td>
+                                Data Structures
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+
+            <!-- ================= CREDIT INFORMATION ================= -->
+
+            <section>
+
+                <h2>Registration Information</h2>
+
+                <p>
+                    Current semester course credits:
+                    <strong>14 credits</strong>
+                </p>
+
+                <p>
+                    Maximum recommended credit load:
+                    <strong>18 credits</strong>
+                </p>
+
+                <p>
+                    Please make sure you meet the prerequisites
+                    before selecting an advanced course.
+                </p>
+
+            </section>
+
+
+            <!-- ================= CONFIRMATION ================= -->
+
+            <section>
+
+                <h2>Confirmation</h2>
+
+                <label for="confirmation">
+
+                    <input
+                        type="checkbox"
+                        id="confirmation"
+                        name="confirmation"
+                        required
+                    >
+
+                    I confirm that the selected courses are correct
+                    and that I meet the required prerequisites.
+
+                </label>
+
+                <br><br>
+
+                <button type="submit">
+                    Submit Course Registration
+                </button>
+
+                <button type="reset">
+                    Clear Selection
+                </button>
+
+            </section>
+
+
+        </form>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 University Student Portal
+        </p>
+
+        <p>
+            Computer Science and Engineering Department
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
